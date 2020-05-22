@@ -6,6 +6,7 @@
     <title>Que estudiar.live</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="icon" type="image/png" href="Iconos/MonotipoGrande.png">
+    <script src="js/acciones.js"></script>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -19,7 +20,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Buscar universidades<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="universidades.html">Buscar universidades<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active"> 
                <a class="nav-link" href="#">Buscar Licenciaturas</a>
@@ -40,50 +41,44 @@
         </div>
       </nav>
 
-
-    <div class="container">
-        <head >
-          <div class="row">
-            <div class="col-2"></div>
-            <div class="col-auto">
-            <h1>¿No sabes que estudiar?</h1>
-          </div>
-          <div class="col-2"></div>
-        </div>
-
-        <div class="row">
-          <div class="col-1"></div>
-          <div class="col-auto">
-            <p>QueEstudiar.live nacio por la necesidad de encontrar una escuela Para todas esas
-               personas que desean estudiar, pero aún no saben que. Te voy a contar un poco de mi
-               historia, cuando yo estaba a punto de egresar de la prepa queria estudiar una carrera universitaria
-               , pero no sabia donde o cual hacer. Asi que decidi realizar test vocacionales, pero siempre
-               me mostraban carreras que no se encontraban en mi ciudad o que yo no sabia donde estaban
-            </p>
-          </div>
-          <div class="col-1"></div>
-        </div>
-
-        </head>
-
-
-        <section class="col" style="background-color: aquamarine;">
-            Puedes buscar las universidades que estan en tu ciudad natal
-            <br>
-            <button type="button" class="btn btn-primary">Buscar universidades</button>
+        <section class="jumbotron text-center" style="margin-bottom: 0; background-color: violet;">
+          <h1>Puedes buscar por universidades</h1>
+          <p>Universidades de Parral, Chihuahua, México</p>
+          <br>
+          <!--<button type="button" class="btn btn-primary" onclick="abrirU()">Buscar universidades</button>-->
+          <a href="universidades.html" class="btn btn-primary" role="button">Buscar Universidades</a>
         </section>
 
-        <section class="col-sm-8" style="background-color: darkgrey;">
-            Puedes buscar las liecenciaturas que estan en tu ciudad natal
+        <section class="jumbotron text-center" style="background-color: tomato;">
+          <h1>Puedes buscar por licenciaturas</h1>
+            <p>Licenciaturas en Parral, Chihuahua, México</p>
             <br>
             <button type="button" class="btn btn-info">Buscar por licenciaturas</button>
         </section>
 
-        <section class="col-sm-8" style="background-color: burlywood;">
-            Si en verdad no tienen ni idea de que estudiar, prueba nuestro test vocacional
+        <section class="jumbotron text-center" style="background-color: burlywood;">
+          <h1><b>¿En verdad no sabes que estudiar?</b> realiza nuestro test vocacional</h1>
+            <p>El resultado te mostrara las carreras posibles dentro de Paral,Chihuahua, Méxicoo</p>
             <br>
             <button type="button" class="btn btn-success">Hacer test</button>
         </section>
+
+        <section class="jumbotron text-center">
+          <h1>¿Ya sabes que estudiar pero necesitas ayuda con el examen?</h1>
+          <p>Compra nuestras guias o recive asesorias de estudiantes</p>
+          <button class="btn btn-dark">Guias</button>
+          <button class="btn btn-light">Asesorias</button>
+        </section>
+
+        <div class="jumbotron text-center" style="margin-bottom: 0; background: transparent !important;">
+          <h1>¿No sabes que estudiar?</h1>
+          <p>QueEstudiar.live nacio por la necesidad de encontrar una escuela Para todas esas
+            personas que desean estudiar, pero aún no saben que. Te voy a contar un poco de mi
+            historia, cuando yo estaba a punto de egresar de la prepa queria estudiar una carrera universitaria
+            , pero no sabia donde o cual hacer. Asi que decidi realizar test vocacionales, pero siempre
+            me mostraban carreras que no se encontraban en mi ciudad o que yo no sabia donde estaban</p>
+          <button type="button" class="btn btn-primary">Acerca de nosotros</button>
+        </div>
 
     </div>
 
