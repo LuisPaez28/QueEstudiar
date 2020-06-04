@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <script src="/js/jquerty.js"></script>
     <script src="/js/acciones.js"></script>
 </head>
+
 <body>
 
     <section>
@@ -16,47 +18,47 @@
         <section id="lista_resultado">
             <!--Aqui va la lista-->
         </section>
-        <button name="btnBorrar" id="btnBorrar" onclick="borrarTxt()" >Borrar</button>
-    </section>    
+        <button name="btnBorrar" id="btnBorrar" onclick="borrarTxt()">Borrar</button>
+    </section>
     <button onclick="obtenerRegistros()">Mostrar</button>
 
 
-    <script >
-    //Esta funcion abre la pagina para ver universidades con el click en el boton
-function abrirU(){
-    //Este metodo abre la pagina
-    window.open("universidades.html","Universidades",);
-}
+    <script>
+        //Esta funcion abre la pagina para ver universidades con el click en el boton
+        function abrirU() {
+            //Este metodo abre la pagina
+            window.open("universidades.html", "Universidades");
+        }
 
 
-$(obtener_registros());
-function obtener_registros(licenciaturas)
-{
-    $.ajax({
-        url : 'consulta.php',
-        type : 'POST',
-        dataType :'html',
-        data : {licenciaturas : licenciaturas},
-    })
-    .done(function(resultado){
-        $("#lista_resultado").html(resultado);
-    })
-}
+        $(obtener_registros());
+        function obtener_registros(licenciaturas) {
+            $.ajax({
+                url: 'consulta.php',
+                type: 'POST',
+                dataType: 'html',
+                data: { licenciaturas: licenciaturas },
+            })
+                .done(function (resultado) {
+                    $("#lista_resultado").html(resultado);
+                })
+        }
 
-//cOMENZAR A BUSCAR CUANDO SE ESCRIBE
-$(document).on('keyup','#busqueda', function(){
-    var valorBusqueda = $(this).val();
-    if(valorBusqueda != ""){
-        obtener_registros(valorBusqueda)
-    } else {
-        obtener_registros();
-    }
-});
+        //cOMENZAR A BUSCAR CUANDO SE ESCRIBE
+        $(document).on('keyup', '#busqueda', function () {
+            var valorBusqueda = $(this).val();
+            if (valorBusqueda != "") {
+                obtener_registros(valorBusqueda)
+            } else {
+                obtener_registros();
+            }
+        });
 
-        function borrarTxt(){
-$('input[type="text"]').val('');
-}
+        function borrarTxt() {
+            $('input[type="text"]').val('');
+        }
     </script>
 
 </body>
+
 </html>
