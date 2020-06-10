@@ -9,6 +9,7 @@
     <link href="css/bootstrap-4.3.1.css" rel="stylesheet">
   </head>
   <body>
+<!--Barra de navegación-->
     <?php
     include('nav.html');
     ?>
@@ -64,7 +65,9 @@ se cobrará una subscripcción y ellos cobraran como gusten-->
               <p class="card-text">
                   Si necesitas un poco de ayuda en cálculo 
               </p>
-              <a href="#" class="btn btn-primary">Contactar</a>
+              <a href="
+              https://wa.me/16271433092?text=Hola,%20necesito%20información%20del%20curso%20de%20cálculo
+              " class="btn btn-primary">Contactar</a>
             </div>
           </div>
         </div>
@@ -76,7 +79,9 @@ se cobrará una subscripcción y ellos cobraran como gusten-->
               <p class="card-text">
                   Si necesitas un poco de ayuda en redacción y lectura.
               </p>
-              <a href="#" class="btn btn-primary">Contactar</a>
+              <a href="
+              https://wa.me/16271433092?text=Hola,%20necesito%20información%20del%20curso%20de%20redacción%20y%20lectura
+              " class="btn btn-primary">Contactar</a>
             </div>
           </div>
         </div>
@@ -88,7 +93,10 @@ se cobrará una subscripcción y ellos cobraran como gusten-->
               <p class="card-text">
                   Si necesitas ayuda para el examen de adminisión...
               </p>
-              <a href="#" class="btn btn-primary">Contactar</a>
+              <!--Aqui es donde se mensiona que es otro servicio que se va a ofrecer-->
+              <a href="
+              https://wa.me/16271433092?text=Hola,%20necesito%20información%20del%20curso%20EXANI%20II
+              " class="btn btn-primary">Contactar</a>
             </div>
           </div>
         </div>
@@ -102,7 +110,9 @@ se cobrará una subscripcción y ellos cobraran como gusten-->
               <p class="card-text">
                   Si necesitas un poco de ayuda con el Ingles
               </p>
-              <a href="#" class="btn btn-primary">Contactar</a>
+              <a href="
+              https://wa.me/16271433092?text=Hola,%20necesito%20información%20del%20curso%20de%20ingles
+              " class="btn btn-primary">Contactar</a>
             </div>
           </div>
         </div>
@@ -114,7 +124,9 @@ se cobrará una subscripcción y ellos cobraran como gusten-->
               <p class="card-text">
                   Si necesitas un poco de ayuda con algebra y geometria
               </p>
-              <a href="#" class="btn btn-primary">Contactart</a>
+              <a href="
+              https://wa.me/16271433092?text=Hola,%20necesito%20información%20del%20curso%20de%20algebra%20y%20geometria
+              " class="btn btn-primary">Contactar</a>
             </div>
           </div>
         </div>
@@ -126,7 +138,9 @@ se cobrará una subscripcción y ellos cobraran como gusten-->
               <p class="card-text">
                   Sabemos que los inicios son dificiles, si necesitas ayuda para adaptarte y entender aqui es el lugar.
               </p>
-              <a href="#" class="btn btn-primary">Contactar</a>
+              <a href="
+              https://wa.me/16271433092?text=Hola,%20necesito%20información%20del%20curso%20introducción%20a%20universidad
+              " class="btn btn-primary">Contactar</a>
             </div>
           </div>
         </div>
@@ -136,9 +150,9 @@ se cobrará una subscripcción y ellos cobraran como gusten-->
     <?PHP
     include('footer.html')
     ?>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+    <!--Scripts y recursos-->
     <script src="js2/jquery-3.3.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js2/popper.min.js"></script>
     <script src="js2/bootstrap-4.3.1.js"></script>
   </body>
