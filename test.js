@@ -46,42 +46,42 @@ function respuesta(ed, inf, ad, co, sa, construc, ind, el, ps) {
         if (ed >= inf && ed >= ad && ed >= co && ed >= sa && ed >= construc && ed >= ind && ed >= el && ed >= ps) {
             //Abrir la pagina donde tienes las carreras de parral orientadas a la educaciòn
             alert('Educación');
-            location.href = 'educacion.html';
+            window.location.href = 'index.html';
         }
         if (inf >= ed && inf >= ad && inf >= co && inf >= sa && inf >= construc && inf >= ind && inf >= el && inf >= ps) {
             //Abrir la pagina donde tienes las carreras de parral orientadas a la educaciòn
             alert('Informatica');
-            location.href = 'informatica.html';
+            window.location.href = 'index.html';
         }
         if (ad >= inf && ad >= ed && ad >= co && ad >= sa && ad >= construc && ad >= ind && ad >= el && ad >= ps) {
             //Abrir la pagina donde tienes las carreras de parral orientadas a la educaciòn
             alert('Administración');
-            location.href = 'administracion.html';
+            window.location.href = 'index.html';
         }
         if (sa >= inf && sa >= ad && sa >= co && sa >= ed && sa >= construc && sa >= ind && sa >= el && sa >= ps) {
             //Abrir la pagina donde tienes las carreras de parral orientadas a la educaciòn
             alert('Salúd');
-            location.href = 'salud.html';
+            window.location.replace = 'index.html';
         }
         if (construc >= inf && construc >= ad && construc >= co && construc >= sa && construc >= ed && construc >= ind && construc >= el && construc >= ps) {
             //Abrir la pagina donde tienes las carreras de parral orientadas a la educaciòn
             alert('Construcción');
-            location.href = 'Construccion.html';
+            window.location.href = 'index.html';
         }
         if (ind >= inf && ind >= ad && ind >= co && ind >= sa && ind >= construc && ind >= ed && ind >= el && ind >= ps) {
             //Abrir la pagina donde tienes las carreras de parral orientadas a la educaciòn
             alert('Industrial');
-            location.href = 'industrial.html';
+            window.location.href = 'index.html';
         }
         if (el >= inf && el >= ad && el >= co && el >= sa && el >= construc && el >= ind && el >= ed && el >= ps) {
             //Abrir la pagina donde tienes las carreras de parral orientadas a la educaciòn
             alert('Electricidad');
-            location.href = 'electricidad.html';
+            window.location.href = 'index.html';
         }
         if (ps >= inf && ps >= ad && ps >= co && ps >= sa && ps >= construc && ps >= ind && ps >= el && ps >= ed) {
             //Abrir la pagina donde tienes las carreras de parral orientadas a la educaciòn
             alert('Psicología');
-            location.href = 'psicologia.html';
+            window.location.href = 'index.html';
         }
     } else {
         alert('Por favor contesta el test primero');
