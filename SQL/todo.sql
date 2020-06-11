@@ -39,6 +39,7 @@ CREATE TABLE NormalSuperiorJoseMedrano(
   nombre TEXT NOT NULL
 );
 
+
 INSERT INTO UACH(id_L,nombre) VALUES 
 (1,"Contador Publico"),
 (2,"Ingeniería Civil"),
@@ -105,3 +106,13 @@ INSERT INTO NormalSuperiorJoseMedrano(id_L,nombre) VALUES
 INSERT INTO UPN(id_L,nombre) VALUES
 (41,"Intervención Educativa"),
 (32,"Pedagogía");
+
+CREATE TABLE URN(
+  id_L INT PRIMARY KEY NOT NULL,
+  nombre TEXT NOT NULL
+);
+
+INSERT INTO UPN(id_L,nombre) VALUES
+(4,"Derecho"),
+(42,"Ciencias de la Comunicación"),
+(43,"Turismo");
