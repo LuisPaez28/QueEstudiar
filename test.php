@@ -41,10 +41,10 @@
         }
         if (sa >= inf && sa >= ad && sa >= co && sa >= ed && sa >= construc && sa >= ind && sa >= el && sa >= ps) {
           //Abrir la pagina donde tienes las carreras de parral orientadas a la educaciòn
-          document.location.href = "nav.html";
-          parent.location = "nav.html";
-          window.location.href = "nav.html";
-          window.open('nav.html', "nuevo");
+          //document.location.href = "salud.html";
+          //parent.location = "salud.html";
+          //window.location.href = "salud.html";
+          window.open('salud.html', "salud");
         }
         if (construc >= inf && construc >= ad && construc >= co && construc >= sa && construc >= ed && construc >= ind && construc >= el && construc >= ps) {
           //Abrir la pagina donde tienes las carreras de parral orientadas a la educaciòn
