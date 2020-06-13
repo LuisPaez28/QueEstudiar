@@ -9,67 +9,40 @@
   <link rel="icon" type="image/png" href="Iconos/MonotipoGrande.png">
   <script>
     //Estas variables van a ir aumentando dependiendo de las respuestas
-    var ed = 0;
-    var inf = 0;
-    var ad = 0;
-    var co = 0;
-    var sa = 0;
-    var construc = 0;
-    var ind = 0;
-    var el = 0;
-    var ps = 0;
+var industrial = 0;
+var informatica = 0;
+var mantenimiento = 0;
+var salud = 0;
+var social = 0;
+var artes = 0;
+var administracion = 0;
+var educacion = 0;
+var construccion = 0;
+var comunicacion = 0;
+var criminologia = 0;
   </script>
   <script>
           //window.open('carreras.html', "nuevo"); este se utiliza para paginas en otra pestaña
-    function respuesta(ed, inf, ad, co, sa, construc, ind, el, ps) {
+    function respuesta(industrial,informatica,mantenimiento,salud,social,artes,administracion,educacion,
+    construccion,comunicacion,criminologia) {
+      if(industrial!=0 || infomratica!=0 ||
+      mantenimiento!=0 || salud!=0 || social!=0 ||
+      artes!=0 ||administracion !=0 || educacion!=0 ||
+      construccion!=0 || comunicacion != 0 || criminologia!=0){
 
-      if (ed != 0 || inf != 0 || ad != 0 || co != 0 || sa != 0 || construc != 0 || ind != 0 || el != 0 || ps != 0) {
-        if (ed >= inf && ed >= ad && ed >= co && ed >= sa && ed >= construc && ed >= ind && ed >= el && ed >= ps) {
-          //Abrir la pagina donde tienes las carreras de parral orientadas a la educaciòn
-          alert('Educación');
-          window.location.href = 'index.html';
+        if(industrial>infomratica && industrial>mantenimiento &&
+        industrial>=salud && industrial>=social && industrial>=artes &&
+        industrial>=administracion && industrial>=educacion &&
+        industrial>=construccion && industrial>=comunicacion && industrial>=criminologia){
+          window.open='industrial.html';
         }
-        if (inf >= ed && inf >= ad && inf >= co && inf >= sa && inf >= construc && inf >= ind && inf >= el && inf >= ps) {
-          //Abrir la pagina donde tienes las carreras de parral orientadas a la educaciòn
-          alert('Informatica');
-          window.location.href = 'index.html';
-        }
-        if (ad >= inf && ad >= ed && ad >= co && ad >= sa && ad >= construc && ad >= ind && ad >= el && ad >= ps) {
-          //Abrir la pagina donde tienes las carreras de parral orientadas a la educaciòn
-          alert('Administración');
-          window.location.href = 'index.html';
-        }
-        if (sa >= inf && sa >= ad && sa >= co && sa >= ed && sa >= construc && sa >= ind && sa >= el && sa >= ps) {
-          //Abrir la pagina donde tienes las carreras de parral orientadas a la educaciòn
-          //document.location.href = "salud.html";
-          //parent.location = "salud.html";
-          //window.location.href = "salud.html";
-          window.open('salud.html', "salud");
-        }
-        if (construc >= inf && construc >= ad && construc >= co && construc >= sa && construc >= ed && construc >= ind && construc >= el && construc >= ps) {
-          //Abrir la pagina donde tienes las carreras de parral orientadas a la educaciòn
-          alert('Construcción');
-          window.location.href = 'index.html';
-        }
-        if (ind >= inf && ind >= ad && ind >= co && ind >= sa && ind >= construc && ind >= ed && ind >= el && ind >= ps) {
-          //Abrir la pagina donde tienes las carreras de parral orientadas a la educaciòn
-          alert('Industrial');
-          window.location.href = 'index.html';
-        }
-        if (el >= inf && el >= ad && el >= co && el >= sa && el >= construc && el >= ind && el >= ed && el >= ps) {
-          //Abrir la pagina donde tienes las carreras de parral orientadas a la educaciòn
-          alert('Electricidad');
-          window.location.href = 'index.html';
-        }
-        if (ps >= inf && ps >= ad && ps >= co && ps >= sa && ps >= construc && ps >= ind && ps >= el && ps >= ed) {
-          //Abrir la pagina donde tienes las carreras de parral orientadas a la educaciòn
-          alert('Psicología');
-          window.location.href = 'index.html';
-        }
-      } else {
-        alert('Por favor contesta el test primero');
+
+      }else
+      {
+        alert('Debes contestar primero el examen')
       }
     }
+
   </script>
 </head>
 <?php
@@ -143,7 +116,7 @@ include('nav.html');
 
       <h3>¿te gusta trabajar mas con personas o con maquinas?</h3>
       <h5>
-        <input type="radio" name="pregunta6" id="pd61" value="personas" onclick="ed += 1; ad += 1; co += 0.5; ind += 0.8; sa += 0.4; construc += 0.8;ps += 1">
+        <input type="radio" name="pregunta6" id="pd61" value="personas" onclick="industrial+=1">
         Personas<br>
         <input type="radio" name="pregunta6" id="pd62" value="maquinas" onclick="inf += 1.5; el += 1.45; construc += 0.2 ">
         Máquinas<br>
@@ -151,7 +124,7 @@ include('nav.html');
       </h5>
       <hr>
 
-      <button class="btn btn-primary" onclick="respuesta(ed, inf, ad, co, sa, construc, ind, el, ps)">
+      <button class="btn btn-primary" onclick="window.open('industrial.html', 'industrial');">
         Ver resultados
       </button>
     </form>
