@@ -41,52 +41,96 @@ function resultados() {
     respuesta(ed, inf, ad, co, sa, construc, ind, el, ps);
 }
 
-function respuesta(ed, inf, ad, co, sa, construc, ind, el, ps) {
-    if (ed != 0 || inf != 0 || ad != 0 || co != 0 || sa != 0 || construc != 0 || ind != 0 || el != 0 || ps != 0) {
-        if (ed >= inf && ed >= ad && ed >= co && ed >= sa && ed >= construc && ed >= ind && ed >= el && ed >= ps) {
-            //Abrir la pagina donde tienes las carreras de parral orientadas a la educaciòn
-            alert('Educación');
-            window.location.href = 'index.html';
-        }
-        if (inf >= ed && inf >= ad && inf >= co && inf >= sa && inf >= construc && inf >= ind && inf >= el && inf >= ps) {
-            //Abrir la pagina donde tienes las carreras de parral orientadas a la educaciòn
-            alert('Informatica');
-            window.location.href = 'index.html';
-        }
-        if (ad >= inf && ad >= ed && ad >= co && ad >= sa && ad >= construc && ad >= ind && ad >= el && ad >= ps) {
-            //Abrir la pagina donde tienes las carreras de parral orientadas a la educaciòn
-            alert('Administración');
-            window.location.href = 'index.html';
-        }
-        if (sa >= inf && sa >= ad && sa >= co && sa >= ed && sa >= construc && sa >= ind && sa >= el && sa >= ps) {
-            //Abrir la pagina donde tienes las carreras de parral orientadas a la educaciòn
-            alert('Salúd');
-            window.location.replace = 'index.html';
-        }
-        if (construc >= inf && construc >= ad && construc >= co && construc >= sa && construc >= ed && construc >= ind && construc >= el && construc >= ps) {
-            //Abrir la pagina donde tienes las carreras de parral orientadas a la educaciòn
-            alert('Construcción');
-            window.location.href = 'index.html';
-        }
-        if (ind >= inf && ind >= ad && ind >= co && ind >= sa && ind >= construc && ind >= ed && ind >= el && ind >= ps) {
-            //Abrir la pagina donde tienes las carreras de parral orientadas a la educaciòn
-            alert('Industrial');
-            window.location.href = 'index.html';
-        }
-        if (el >= inf && el >= ad && el >= co && el >= sa && el >= construc && el >= ind && el >= ed && el >= ps) {
-            //Abrir la pagina donde tienes las carreras de parral orientadas a la educaciòn
-            alert('Electricidad');
-            window.location.href = 'index.html';
-        }
-        if (ps >= inf && ps >= ad && ps >= co && ps >= sa && ps >= construc && ps >= ind && ps >= el && ps >= ed) {
-            //Abrir la pagina donde tienes las carreras de parral orientadas a la educaciòn
-            alert('Psicología');
-            window.location.href = 'index.html';
-        }
-    } else {
-        alert('Por favor contesta el test primero');
-    }
-}
+          //window.open('carreras.html', "nuevo"); este se utiliza para paginas en otra pestaña
+          function respuesta(industrial,informatica,mantenimiento,salud,social,artes,administracion,educacion,
+            construccion,comunicacion,criminologia) {
+              if(industrial!=0 || infomratica!=0 ||
+              mantenimiento!=0 || salud!=0 || social!=0 ||
+              artes!=0 ||administracion !=0 || educacion!=0 ||
+              construccion!=0 || comunicacion != 0 || criminologia!=0){
+        
+                if(industrial>infomratica && industrial>mantenimiento &&
+                industrial>=salud && industrial>=social && industrial>=artes &&
+                industrial>=administracion && industrial>=educacion &&
+                industrial>=construccion && industrial>=comunicacion && industrial>=criminologia){
+                  window.open('industrial.html', 'industrial');
+                }
+        
+                if(industrial<infomratica && informatica>mantenimiento &&
+                informatica>=salud && informatica>=social && informatica>=artes &&
+                informatica>=administracion && informatica>=educacion &&
+                informatica>=construccion && informatica>=comunicacion && informatica>=criminologia){
+                  window.open('informatica.html', 'informatica');
+                }
+        
+                if(mantenimiento>infomratica && industrial<mantenimiento &&
+                mantenimiento>=salud && mantenimiento>=social && mantenimiento>=artes &&
+                mantenimiento>=administracion && mantenimiento>=educacion &&
+                mantenimiento>=construccion && mantenimiento>=comunicacion && mantenimiento>=criminologia){
+                  window.open('mantenimiento.html', 'mantenimiento');
+                }
+                
+                if(salud>=infomratica && salud>=mantenimiento &&
+                industrial<=salud && salud>=social && salud>=artes &&
+                salud>=administracion && salud>=educacion &&
+                salud>=construccion && salud>=comunicacion && salud>=criminologia){
+                  window.open('salud.html', 'salud');
+                }
+        
+                if(social>=infomratica && social>=mantenimiento &&
+                social>=salud && salud<=social && social>=artes &&
+                social>=administracion && social>=educacion &&
+                social>=construccion && social>=comunicacion && social>=criminologia){
+                  window.open('social.html', 'social');
+                }
+        
+                if(artes>infomratica && artes>mantenimiento &&
+                artes>=salud && artes>=social && industrial<=artes &&
+                artes>=administracion && artes>=educacion &&
+                artes>=construccion && artes>=comunicacion && artes>=criminologia){
+                  window.open('artes.html', 'artes');
+                }
+        
+                if(administracion>infomratica && administracion>mantenimiento &&
+                administracion>=salud && administracion>=social && administracion>=artes &&
+                industrial<=administracion && administracion>=educacion &&
+                administracion>=construccion && administracion>=comunicacion && administracion>=criminologia){
+                  window.open('administracion.html', 'administracion');
+                }
+        
+                if(educacion>infomratica && educacion>mantenimiento &&
+                educacion>=salud && educacion>=social && educacion>=artes &&
+                educacion>=administracion && industrial<=educacion &&
+                educacion>=construccion && educacion>=comunicacion && educacion>=criminologia){
+                  window.open('educacion.html', 'educacion');
+                }
+        
+                if(construccion>infomratica && construccion>mantenimiento &&
+                construccion>=salud && construccion>=social && construccion>=artes &&
+              construccion>=administracion && construccion>=educacion &&
+                industrial<=construccion && construccion>=comunicacion && construccion>=criminologia){
+                  window.open('construccion.html', 'construccion');
+                }
+        
+                if(comunicacion>infomratica && comunicacion>mantenimiento &&
+                comunicacion>=salud && comunicacion>=social && comunicacion>=artes &&
+                comunicacion>=administracion && comunicacion>=educacion &&
+                comunicacion>=construccion && industrial<=comunicacion && comunicacion>=criminologia){
+                  window.open('comunicacion.html', 'comunicacion');
+                }
+        
+                if(criminologia>infomratica && criminologia>mantenimiento &&
+                criminologia>=salud && criminologia>=social && criminologia>=artes &&
+                criminologia>=administracion && criminologia>=educacion &&
+                criminologia>=construccion && criminologia>=comunicacion && industrial<=criminologia){
+                  window.open('criminologia.html', 'criminologia');
+                }
+        
+              }else
+              {
+                alert('Debes contestar primero el examen')
+              }
+            }
 
 function sijala(){
     alert('Si esta jalñando el boton');
