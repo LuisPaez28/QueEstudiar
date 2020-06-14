@@ -23,7 +23,7 @@
     <!--Este es un renglon-->
     <div class="row">
         <!--Esta parte es donde se muestra una universidad-->
-        <div class="col-xs-6 col-md-3 ml-2 mt-1">
+        <div class="col-xs-6 col-md-3 ml-2 mt-1" id="ITIB">
             <div class="img-thumbnail text-center">
                 <img style="width: 50%;" src="Imagenes/InstituoTecnicoEnImagenesBiomedicas.png"
                     alt="Instituo Tecnico En Imagenes Biomedicas">
@@ -47,7 +47,7 @@
             </div>
         </div>
         <!--Esta parte es donde se muestra una universidad-->
-        <div class="col-sm ml-2 mt-1">
+        <div class="col-sm ml-2 mt-1" id="IISCH">
             <div class="img-thumbnail text-center">
                 <img class="rounded " style="width: 50%;"
                     src="Imagenes/InstitutoDeInvestigacionesSocialesDeChihuahua.png"
@@ -70,7 +70,7 @@
             </div>
         </div>
         <!--Esta parte es donde se muestra una universidad-->
-        <div class="col-sm ml-2 mt-1">
+        <div class="col-sm ml-2 mt-1" id="UACH">
             <div class="img-thumbnail text-center">
                 <img class="rounded " style="width: 50%;" src="Imagenes/UACHParral.png"
                     alt="Centro Universitario Parral">
@@ -107,7 +107,7 @@
     <!--Esta parte es donde se muestra una universidad-->
     <div class="row">
         <!--Esta parte es donde se muestra una universidad-->
-        <div class="col-sm  ml-2 mt-1">
+        <div class="col-sm  ml-2 mt-1" id="CCU">
             <div class="img-thumbnail text-center">
                 <img class="rounded " style="width: 50%;" src="Imagenes/CCU.png" alt="Centro Cultural Universitario">
                 <div class="caption">
@@ -145,7 +145,7 @@
             </div>
         </div>
         <!--Esta parte es donde se muestra una universidad-->
-        <div class="col-sm  ml-2 mt-1">
+        <div class="col-sm  ml-2 mt-1" id="INESAP">
             <div class="img-thumbnail text-center">
                 <img class="rounded " style="width: 50%;" src="Imagenes/INESAP2.png" alt="INESAP">
                 <div class="caption">
@@ -167,7 +167,7 @@
             </div>
         </div>
         <!--Esta parte es donde se muestra una universidad-->
-        <div class="col-sm  ml-2 mt-1">
+        <div class="col-sm  ml-2 mt-1" id="ITP">
             <div class="img-thumbnail text-center">
                 <img class="rounded " style="width: 50%;" src="Imagenes/ITParral.png" alt="ITParral">
                 <div class="caption">
@@ -202,7 +202,7 @@
     <!--Este es un renglon-->
     <div class="row">
         <!--Esta parte es donde se muestra una universidad-->
-        <div class="col-xs-6 col-md-3 ml-2 mt-1">
+        <div class="col-xs-6 col-md-3 ml-2 mt-1" id="NE">
             <div class="img-thumbnail text-center">
                 <img style="width: 50%;" src="Imagenes/NormalExperimentalMiguelIdalgo.png"
                     alt="Normal Experimental Miguel Hidalgo">
@@ -226,7 +226,7 @@
             </div>
         </div>
         <!--Esta parte es donde se muestra una universidad-->
-        <div class="col-sm ml-2 mt-1">
+        <div class="col-sm ml-2 mt-1" id="NS">
             <div class="img-thumbnail text-center">
                 <img class="rounded " style="width: 50%;" src="Imagenes/NormalSuperior.png" alt="Normal Superior">
                 <div class="caption">
