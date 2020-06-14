@@ -69,6 +69,20 @@ body, html {
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
 }
+@media (max-width: 800px) {
+  .hero-text {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+}
   </style>
 </head>
 
@@ -86,10 +100,10 @@ body, html {
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="universidades.php">Buscar universidades<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="universidades.php">Ver universidades<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="licenciaturas.html">Buscar Carreras</a>
+          <a class="nav-link" href="carreras.php">Ver Carreras</a>
         </li>
         <li class="nav-item active">
           <a class="nav-link" href="test.php">Hacer Test</a>
@@ -100,9 +114,7 @@ body, html {
         <li class="nav-item active">
           <a class="nav-link" href="guias.php#tutorias">Conseguir tutorias</a>
         </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Acerca de nosotros</a>
-        </li>
+
       </ul>
     </div>
   </nav>
@@ -118,7 +130,6 @@ body, html {
             historia, cuando yo estaba a punto de egresar de la prepa queria estudiar una carrera universitaria
             , pero no sabia donde o cual hacer. Asi que decidi realizar test vocacionales, pero siempre
             me mostraban carreras que no se encontraban en mi ciudad o que yo no sabia donde estaban</p>
-          <button type="button" class="btn btn-primary">Acerca de nosotros</button>
         </div>
       </div>
     </div>
@@ -158,7 +169,6 @@ body, html {
     <a class="btn btn-dark" href="guias.php">Guias</a>
     <a class="btn btn-light" href="guias.php#tutorias">Tutorias</a>
   </section>
-
 
   </div>
 

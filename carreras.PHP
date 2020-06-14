@@ -10,7 +10,7 @@
 
 <body>
     <!--Barra de Navegación-->
-    <?php include('nav.html') ?>
+    <?php include('nav.html') ?>}
 
     <!--Esta Administración-->
     <div class="media">
@@ -66,10 +66,11 @@
         <div class="media-body">
             <h5 class="mt-0">Licenciatura en Administración de Empresas Turísticas</h5>
             <!--Insertar texto de la licenciatura-->
-            <a href="#collapseExample" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a href="#collapseAET" class="btn btn-light" data-toggle="collapse" 
+            role="button" aria-expanded="false" aria-controls="collapseAET">
                 Ver Universidades
             </a>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="collapseAET">
 
                 <div class="media mt-3">
                     <a class="pr-3" href="universidades.php#URN">
@@ -92,10 +93,11 @@
         <div class="media-body">
             <h5 class="mt-0">Licenciatura en Administración Financiera</h5>
             <!--Insertar texto de la licenciatura-->
-            <a href="#collapseExample" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a href="#collapseAF" class="btn btn-light" data-toggle="collapse" 
+            role="button" aria-expanded="false" aria-controls="collapseAF">
                 Ver Universidades
             </a>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="collapseAF">
 
 
                 <div class="media mt-3">
@@ -120,7 +122,8 @@
         <div class="media-body">
             <h5 class="mt-0">Licenciatura en Administración de Gestion Pública</h5>
             <!--Insertar texto de la licenciatura-->
-            <a href="#collapseAGP" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseAGP">
+            <a href="#collapseAGP" class="btn btn-light" data-toggle="collapse" role="button" 
+            aria-expanded="false" aria-controls="collapseAGP">
                 Ver Universidades
             </a>
             <div class="collapse" id="collapseAGP">
@@ -146,10 +149,11 @@
         <div class="media-body">
             <h5 class="mt-0">Licenciatura en Administración y Gestión Pública</h5>
             <!--Insertar texto de la licenciatura-->
-            <a href="#collapseExample" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a href="#collapseAYGP" class="btn btn-light" data-toggle="collapse" role="button"
+             aria-expanded="false" aria-controls="collapseAYGP">
                 Ver Universidades
             </a>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="collapseAYGP">
 
                 <div class="media mt-3">
                     <a class="pr-3" href="universidades.php#UACH">
@@ -171,10 +175,11 @@
         <div class="media-body">
             <h5 class="mt-0">Licenciatura en Arquitectura</h5>
             <!--Insertar texto de la licenciatura-->
-            <a href="#collapseExample" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a href="#collapseARQUI" class="btn btn-light" data-toggle="collapse"
+             role="button" aria-expanded="false" aria-controls="collapseARQUI">
                 Ver Universidades
             </a>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="collapseARQUI">
                 <?php include('linkITP.html') ?>
             </div>
         </div>
@@ -186,12 +191,12 @@
         <div class="media-body">
             <h5 class="mt-0">Licenciatura en Artes Plasticas</h5>
             <!--Insertar texto de la licenciatura-->
-            <a href="#collapseExample" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a href="#collapseArtes" class="btn btn-light" data-toggle="collapse" 
+            role="button" aria-expanded="false" aria-controls="collapseArtes">
                 Ver Universidades
             </a>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="collapseArtes">
                 <?php include('linkUACH.html') ?>
-
             </div>
         </div>
     </div>
@@ -202,10 +207,11 @@
         <div class="media-body">
             <h5 class="mt-0">Licenciatura en Ciencias Forenses</h5>
             <!--Insertar texto de la licenciatura-->
-            <a href="#collapseExample" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a href="#collapseCienciasF" class="btn btn-light" data-toggle="collapse" 
+            role="button" aria-expanded="false" aria-controls="collapseCienciasF">
                 Ver Universidades
             </a>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="collapseCienciasF">
 
                 <?php include('linkCCU.html') ?>
 
@@ -219,10 +225,11 @@
         <div class="media-body">
             <h5 class="mt-0">Licenciatura en Ciencias Políticas</h5>
             <!--Insertar texto de la licenciatura-->
-            <a href="#collapseExample" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a href="#collapseCienciasP" class="btn btn-light" data-toggle="collapse" 
+            role="button" aria-expanded="false" aria-controls="collapseCienciasP">
                 Ver Universidades
             </a>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="collapseCienciasP">
                 <div class="media mt-3">
                     <a class="pr-3" href="universidades.php#URN">
                         <img src="Iconos/0.5x/IISCH@0.5x.png" alt="URN">
@@ -243,10 +250,11 @@
         <div class="media-body">
             <h5 class="mt-0">Licenciatura en Ciencias de la Comunicación</h5>
             <!--Insertar texto de la licenciatura-->
-            <a href="#collapseExample" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a href="#collapseCienciasC" class="btn btn-light" data-toggle="collapse" 
+            role="button" aria-expanded="false" aria-controls="collapseCienciasC">
                 Ver Universidades
             </a>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="collapseCienciasC">
                 <div class="media mt-3">
                     <a class="pr-3" href="universidades.php#URN">
                         <img src="Iconos/0.5x/URN@0.5x.png" alt="URN">
@@ -267,10 +275,11 @@
         <div class="media-body">
             <h5 class="mt-0">Licenciatura en Comunicación y Periodismo</h5>
             <!--Insertar texto de la licenciatura-->
-            <a href="#collapseExample" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a href="#collapseComunYP" class="btn btn-light" data-toggle="collapse" 
+            role="button" aria-expanded="false" aria-controls="collapseComunYP">
                 Ver Universidades
             </a>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="collapseComunYP">
 
                 <?php include('linkCCU.html') ?>
 
@@ -284,10 +293,11 @@
         <div class="media-body">
             <h5 class="mt-0">Licenciatura en Contabilidad Pública</h5>
             <!--Insertar texto de la licenciatura-->
-            <a href="#collapseExample" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a href="#collapseContPub" class="btn btn-light" data-toggle="collapse" 
+            role="button" aria-expanded="false" aria-controls="collapseContPub">
                 Ver Universidades
             </a>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="collapseContPub">
 
                 <div class="media mt-3">
                     <a class="pr-3" href="universidades.php#ITP">
@@ -321,10 +331,11 @@
         <div class="media-body">
             <h5 class="mt-0">Licenciatura en Criminología</h5>
             <!--Insertar texto de la licenciatura-->
-            <a href="#collapseExample" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a href="#collapseCrimino" class="btn btn-light" data-toggle="collapse" 
+            role="button" aria-expanded="false" aria-controls="collapseCrimino">
                 Ver Universidades
             </a>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="collapseCrimino">
                 <div class="media mt-3">
                     <a class="pr-3" href="universidades.php#UNES">
                         <img src="Iconos/0.5x/UNES@0.5x.png" alt="UNES">
@@ -345,10 +356,11 @@
         <div class="media-body">
             <h5 class="mt-0">Licenciatura en Derecho</h5>
             <!--Insertar texto de la licenciatura-->
-            <a href="#collapseExample" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a href="#collapseDerecho" class="btn btn-light" data-toggle="collapse" 
+            role="button" aria-expanded="false" aria-controls="collapseDerecho">
                 Ver Universidades
             </a>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="collapseDerecho">
                 <?php include('linkUACH.html') ?>
 
                 <div class="media mt-3">
@@ -372,10 +384,11 @@
         <div class="media-body">
             <h5 class="mt-0">Licenciatura en Derecho Burocrático</h5>
             <!--Insertar texto de la licenciatura-->
-            <a href="#collapseExample" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a href="#collapseDBuro" class="btn btn-light" data-toggle="collapse" role="button" 
+            aria-expanded="false" aria-controls="collapseDBuro">
                 Ver Universidades
             </a>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="collapseDBuro">
 
                 <div class="media mt-3">
                     <a class="pr-3" href="universidades.php#INESAP">
@@ -398,10 +411,11 @@
         <div class="media-body">
             <h5 class="mt-0">Licenciatura en Diseño Gráfico</h5>
             <!--Insertar texto de la licenciatura-->
-            <a href="#collapseExample" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a href="#collapseDiseG" class="btn btn-light" data-toggle="collapse" 
+            role="button" aria-expanded="false" aria-controls="collapseDiseG">
                 Ver Universidades
             </a>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="collapseDiseG">
 
                 <?php include('linkCCU.html') ?>
 
@@ -415,10 +429,11 @@
         <div class="media-body">
             <h5 class="mt-0">Licenciatura en Economía</h5>
             <!--Insertar texto de la licenciatura-->
-            <a href="#collapseExample" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a href="#collapseEconomia" class="btn btn-light" data-toggle="collapse" 
+            role="button" aria-expanded="false" aria-controls="collapseEconomia">
                 Ver Universidades
             </a>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="collapseEconomia">
 
                 <div class="media mt-3">
                     <a class="pr-3" href="universidades.php#UACH">
@@ -441,10 +456,11 @@
         <div class="media-body">
             <h5 class="mt-0">Licenciatura en Edificación y Administración de Obra</h5>
             <!--Insertar texto de la licenciatura-->
-            <a href="#collapseExample" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a href="#collapseEYAO" class="btn btn-light" data-toggle="collapse" 
+            role="button" aria-expanded="false" aria-controls="collapseEYAO">
                 Ver Universidades
             </a>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="collapseEYAO">
                 <?php include('linkCCU.html') ?>
             </div>
         </div>
@@ -456,10 +472,11 @@
         <div class="media-body">
             <h5 class="mt-0">Licenciatura en Educación Preescolar</h5>
             <!--Insertar texto de la licenciatura-->
-            <a href="#collapseExample" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a href="#collapsePreescolar" class="btn btn-light" data-toggle="collapse" 
+            role="button" aria-expanded="false" aria-controls="collapsePreescolar">
                 Ver Universidades
             </a>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="collapsePreescolar">
                 <div class="media mt-3">
                     <a class="pr-3" href="universidades.php#NE">
                         <img src="Iconos/0.5x/NormalE@0.5x.png" alt="Normal Experimental">
@@ -480,10 +497,11 @@
         <div class="media-body">
             <h5 class="mt-0">Licenciatura en Educación Primaria</h5>
             <!--Insertar texto de la licenciatura-->
-            <a href="#collapseExample" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a href="#collapsePrimaria" class="btn btn-light" data-toggle="collapse" 
+            role="button" aria-expanded="false" aria-controls="collapsePrimaria">
                 Ver Universidades
             </a>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="collapsePrimaria">
                 <div class="media mt-3">
                     <a class="pr-3" href="universidades.php#NE">
                         <img src="Iconos/0.5x/NormalE@0.5x.png" alt="Normal Experimental">
@@ -504,10 +522,11 @@
         <div class="media-body">
             <h5 class="mt-0">Licenciatura en Enfermería</h5>
             <!--Insertar texto de la licenciatura-->
-            <a href="#collapseExample" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a href="#collapseEnfermeria" class="btn btn-light" data-toggle="collapse" 
+            role="button" aria-expanded="false" aria-controls="collapseEnfermeria">
                 Ver Universidades
             </a>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="collapseEnfermeria">
                 <?php include('linkUACH.html') ?>
             </div>
         </div>
@@ -519,10 +538,11 @@
         <div class="media-body">
             <h5 class="mt-0">Licenciatura en Enseñanza y Aprendisaje</h5>
             <!--Insertar texto de la licenciatura-->
-            <a href="#collapseExample" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a href="#collapseEnseYA" class="btn btn-light" data-toggle="collapse"
+             role="button" aria-expanded="false" aria-controls="collapseEnseYA">
                 Ver Universidades
             </a>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="collapseEnseYA">
 
                 <div class="media mt-3">
                     <a class="pr-3" href="universidades.php#NS">
@@ -545,10 +565,11 @@
         <div class="media-body">
             <h5 class="mt-0">Licenciatura en Gestión de Negocios y Proyectos</h5>
             <!--Insertar texto de la licenciatura-->
-            <a href="#collapseExample" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a href="#collapseGNYP" class="btn btn-light" data-toggle="collapse" 
+            role="button" aria-expanded="false" aria-controls="collapseGNYP">
                 Ver Universidades
             </a>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="collapseGNYP">
 
                 <div class="media mt-3">
                     <a class="pr-3" href="universidades.php#UTP">
@@ -571,10 +592,11 @@
         <div class="media-body">
             <h5 class="mt-0">Licenciatura en Ingeniería Civil</h5>
             <!--Insertar texto de la licenciatura-->
-            <a href="#collapseExample" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a href="#collapseCivil" class="btn btn-light" data-toggle="collapse" 
+            role="button" aria-expanded="false" aria-controls="collapseCivil">
                 Ver Universidades
             </a>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="collapseCivil">
                 <?php include('linkUACH.html') ?>
             </div>
         </div>
@@ -586,10 +608,11 @@
         <div class="media-body">
             <h5 class="mt-0">Licenciatura en Ingeniería Electromecánica</h5>
             <!--Insertar texto de la licenciatura-->
-            <a href="#collapseExample" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a href="#collapseElectro" class="btn btn-light" data-toggle="collapse" 
+            role="button" aria-expanded="false" aria-controls="collapseElectro">
                 Ver Universidades
             </a>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="collapseElectro">
                 <?php include('linkITP.html') ?>
             </div>
         </div>
@@ -601,10 +624,11 @@
         <div class="media-body">
             <h5 class="mt-0">Licenciatura en Ingeniería en Gestión Empresarial</h5>
             <!--Insertar texto de la licenciatura-->
-            <a href="#collapseExample" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a href="#collapseGestionE" class="btn btn-light" data-toggle="collapse" role="button" 
+            aria-expanded="false" aria-controls="collapseGestionE">
                 Ver Universidades
             </a>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="collapseGestionE">
 
                 <div class="media mt-3">
                     <a class="pr-3" href="universidades.php#ITP">
@@ -638,10 +662,11 @@
         <div class="media-body">
             <h5 class="mt-0">Licenciatura en Ingeniería en Lógistica</h5>
             <!--Insertar texto de la licenciatura-->
-            <a href="#collapseExample" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a href="#collapseLogi" class="btn btn-light" data-toggle="collapse"
+            role="button" aria-expanded="false" aria-controls="collapseLogi">
                 Ver Universidades
             </a>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="collapseLogi">
 
                 <div class="media mt-3">
                     <a class="pr-3" href="universidades.php#CCU">
@@ -664,10 +689,11 @@
         <div class="media-body">
             <h5 class="mt-0">Licenciatura en Ingeniería en Mantenimiento Industrial</h5>
             <!--Insertar texto de la licenciatura-->
-            <a href="#collapseExample" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a href="#collapsManIndu" class="btn btn-light" data-toggle="collapse"
+             role="button" aria-expanded="false" aria-controls="collapseManIndu">
                 Ver Universidades
             </a>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="collapseManIndu">
                 <?php include('linkUTP.html') ?>
             </div>
         </div>
@@ -680,10 +706,11 @@
         <div class="media-body">
             <h5 class="mt-0">Licenciatura en Ingeniería en Mínas</h5>
             <!--Insertar texto de la licenciatura-->
-            <a href="#collapseExample" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a href="#collapseMina" class="btn btn-light" data-toggle="collapse" 
+            role="button" aria-expanded="false" aria-controls="collapseMina">
                 Ver Universidades
             </a>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="collapseMina">
                 <?php include('linkITP.html') ?>
                 <br>
                 <?php include('linkUTP.html') ?>
@@ -698,10 +725,11 @@
         <div class="media-body">
             <h5 class="mt-0">Licenciatura en Ingeniería en Sistemas Computacionales</h5>
             <!--Insertar texto de la licenciatura-->
-            <a href="#collapseExample" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a href="#collapseSisCom" class="btn btn-light" data-toggle="collapse" 
+            role="button" aria-expanded="false" aria-controls="collapseSisCom">
                 Ver Universidades
             </a>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="collapseSisCom">
 
                 <div class="media mt-3">
                     <a class="pr-3" href="universidades.php#ITP">
@@ -724,10 +752,11 @@
         <div class="media-body">
             <h5 class="mt-0">Licenciatura en Ingeniería en Sistemas Productivos</h5>
             <!--Insertar texto de la licenciatura-->
-            <a href="#collapseExample" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a href="#collapseSisPro" class="btn btn-light" data-toggle="collapse"
+             role="button" aria-expanded="false" aria-controls="collapseSisPro">
                 Ver Universidades
             </a>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="collapseSisPro">
 
                 <div class="media mt-3">
                     <a class="pr-3" href="universidades.php#UTP">
@@ -750,10 +779,11 @@
         <div class="media-body">
             <h5 class="mt-0">Licenciatura en Tecnológias de la Información</h5>
             <!--Insertar texto de la licenciatura-->
-            <a href="#collapseExample" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a href="#collapseTICS" class="btn btn-light" data-toggle="collapse" 
+            role="button" aria-expanded="false" aria-controls="collapseTICS">
                 Ver Universidades
             </a>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="collapseTICS">
 
                 <div class="media mt-3">
                     <a class="pr-3" href="universidades.php#UTP">
@@ -786,10 +816,11 @@
         <div class="media-body">
             <h5 class="mt-0">Licenciatura en Ingeniería Industrial</h5>
             <!--Insertar texto de la licenciatura-->
-            <a href="#collapseExample" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a href="#collapseIndus" class="btn btn-light" data-toggle="collapse" 
+            role="button" aria-expanded="false" aria-controls="collapseIndus">
                 Ver Universidades
             </a>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="collapseIndus">
 
                 <div class="media mt-3">
                     <a class="pr-3" href="universidades.php#ITP">
@@ -812,10 +843,11 @@
         <div class="media-body">
             <h5 class="mt-0">Licenciatura en Mecatrónica</h5>
             <!--Insertar texto de la licenciatura-->
-            <a href="#collapseExample" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a href="#collapseMecatronic" class="btn btn-light" data-toggle="collapse" role="button" 
+            aria-expanded="false" aria-controls="collapseMecatronic">
                 Ver Universidades
             </a>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="collapseMecatronic">
                 <?php include('linkITP.html') ?>
             </div>
         </div>
@@ -827,10 +859,11 @@
         <div class="media-body">
             <h5 class="mt-0">Licenciatura en Ingeniería Química</h5>
             <!--Insertar texto de la licenciatura-->
-            <a href="#collapseExample" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a href="#collapseQuimica" class="btn btn-light" data-toggle="collapse"
+            role="button" aria-expanded="false" aria-controls="collapseQuimica">
                 Ver Universidades
             </a>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="collapseQuimica">
                 <?php include('linkITP.html') ?>
             </div>
         </div>
@@ -842,10 +875,11 @@
         <div class="media-body">
             <h5 class="mt-0">Licenciatura en intervención Educativa</h5>
             <!--Insertar texto de la licenciatura-->
-            <a href="#collapseExample" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a href="#collapseIE" class="btn btn-light" data-toggle="collapse" role="button" 
+            aria-expanded="false" aria-controls="collapseIE">
                 Ver Universidades
             </a>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="collapseIE">
                 <div class="media mt-3">
                     <a class="pr-3" href="universidades.php#UPN">
                         <img src="Iconos/0.5x/UPN@0.5x.png" alt="UPN">
@@ -866,10 +900,11 @@
         <div class="media-body">
             <h5 class="mt-0">Licenciatura en Medicina</h5>
             <!--Insertar texto de la licenciatura-->
-            <a href="#collapseExample" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a href="#collapseMedicina" class="btn btn-light" data-toggle="collapse" 
+            role="button" aria-expanded="false" aria-controls="collapseMedicina">
                 Ver Universidades
             </a>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="collapseMedicina">
                 <?php include('linkUACH.html') ?>
             </div>
         </div>
@@ -881,10 +916,11 @@
         <div class="media-body">
             <h5 class="mt-0">Licenciatura en Negocios Internacionales</h5>
             <!--Insertar texto de la licenciatura-->
-            <a href="#collapseExample" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a href="#collapseNI" class="btn btn-light" data-toggle="collapse" role="button" 
+            aria-expanded="false" aria-controls="collapseMI">
                 Ver Universidades
             </a>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="collapseNI">
 
                 <div class="media mt-3">
                     <a class="pr-3" href="universidades.php#UACH">
@@ -901,17 +937,17 @@
         </div>
     </div>
 
-
     <!--Esta es Negocios y mercadotecnia-->
     <div class="media">
         <img class="mr-3" src="carreras/iconos/negg.svg" alt="admin" style="width:8%;">
         <div class="media-body">
             <h5 class="mt-0">Licenciatura en Gestión de Negocios y Mercadotecnia</h5>
             <!--Insertar texto de la licenciatura-->
-            <a href="#collapseExample" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a href="#collapseNYM" class="btn btn-light" data-toggle="collapse" role="button" 
+            aria-expanded="false" aria-controls="collapseNYM">
                 Ver Universidades
             </a>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="collapseNYM">
 
                 <div class="media mt-3">
                     <a class="pr-3" href="universidades.php#CCU">
@@ -934,10 +970,11 @@
         <div class="media-body">
             <h5 class="mt-0">Licenciatura en Nutrición</h5>
             <!--Insertar texto de la licenciatura-->
-            <a href="#collapseExample" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a href="#collapseNutri" class="btn btn-light" data-toggle="collapse" 
+            role="button" aria-expanded="false" aria-controls="collapseNutri">
                 Ver Universidades
             </a>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="collapseNutri">
                 <?php include('linkUACH.html') ?>
                 <div class="media mt-3">
                     <a class="pr-3" href="universidades.php#UNES">
@@ -959,10 +996,11 @@
         <div class="media-body">
             <h5 class="mt-0">Licenciatura en Pedagogía</h5>
             <!--Insertar texto de la licenciatura-->
-            <a href="#collapseExample" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a href="#collapsePedago" class="btn btn-light" data-toggle="collapse" 
+            role="button" aria-expanded="false" aria-controls="collapsePedago">
                 Ver Universidades
             </a>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="collapsePedago">
                 <div class="media mt-3">
                     <a class="pr-3" href="universidades.php#UPN">
                         <img src="Iconos/0.5x/UPN@0.5x.png" alt="UPN">
@@ -984,10 +1022,11 @@
         <div class="media-body">
             <h5 class="mt-0">Licenciatura en Psicología</h5>
             <!--Insertar texto de la licenciatura-->
-            <a href="#collapseExample" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a href="#collapsePsi" class="btn btn-light" data-toggle="collapse" role="button" 
+            aria-expanded="false" aria-controls="collapsePsi">
                 Ver Universidades
             </a>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="collapsePsi">
                 <div class="media mt-3">
                     <a class="pr-3" href="universidades.php#URN">
                         <img src="Iconos/0.5x/IISCH@0.5x.png" alt="URN">
@@ -1010,15 +1049,17 @@
         <div class="media-body">
             <h5 class="mt-0">Licenciatura en Trabajo Social</h5>
             <!--Insertar texto de la licenciatura-->
-            <a href="#collapseExample" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a href="#collapseTS" class="btn btn-light" data-toggle="collapse" role="button" 
+            aria-expanded="false" aria-controls="collapseTS">
                 Ver Universidades
             </a>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="collapseTS">
                 <?php include('link.CCU.html') ?>
             </div>
         </div>
     </div>
 
+    <?php include('footer.html')?>
     <script src="js/jquerty.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>

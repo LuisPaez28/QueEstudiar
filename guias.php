@@ -31,12 +31,24 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <a href="guiaUNAM.php"><img class="d-block w-100" src="Imagenes/GuiaUNAMpeque.jpg" alt="Guia UNAM"></a>
+              <div class="carousel-caption d-none d-md-block">
+                <h3 style="color: black;"><b>$100 mx</b></h3>
+                <h5 style="color: black;"><b>Guía UNAM</b></h5>
+              </div>
             </div>
             <div class="carousel-item">
               <a href="guiaEXANI.php"><img class="d-block w-100" src="Imagenes/GuiaExani.jpg" alt="Guia Exani II"></a>
+              <div class="carousel-caption d-none d-md-block">
+                <h3><b>$50 mx</b></h3>
+                <h5><b>Guía EXANI-II</b></h5>
+              </div>
             </div>
             <div class="carousel-item">
               <a href="guiaIPN.php"><img class="d-block w-100" src="Imagenes/GuiasIPN.jpg" alt="Guia IPN"></a>
+              <div class="carousel-caption d-none d-md-block">
+                <h3 style="color: black;"><b>$100 mx</b></h3>
+                <h5 style="color: black;"><b>Guía IPN</b></h5>
+              </div>
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
