@@ -31,7 +31,7 @@ include('nav.html');
     var comunicacion = 0;
     var criminologia = 0;
   </script>
-      <h3>¿Que clase en la prepa te pareció <b>más</b> interesante?</h3>
+      <h3>¿Qué clase en la prepa te pareció <b>más</b> interesante?</h3>
       <h5>
         <input type="radio" name="pregunta1" id="pd11" value="español" 
         onclick="educacion += 0.9; administracion += 0.5; salud += 0.7;social+=1.1;comunicacion+=1.2">
@@ -70,7 +70,7 @@ include('nav.html');
       </h5>
       <hr>
 
-      <h3>¿Cual de estas afirmaciones es <b>cierta</b> de acuerdo a tu personalidad?</h3>
+      <h3>¿Cuál de estas afirmaciones es <b>cierta</b> de acuerdo a tu personalidad?</h3>
       <h5>
         <input type="radio" name="pregunta3" id="pd31" value="nato" onclick="educacion += 0.99; administracion += 1.53; industrial += 0.33; salud += 0.44; social +=0.6">
         Soy un líder nato<br>
@@ -126,14 +126,14 @@ include('nav.html');
         Pintando cuadros y haciendo esculturas
         <br>
         <input type="radio" name="pregunta5" id="pd57" value="nunca" onclick="comunicacion += 3.4">
-        Trabajando en la radio, la televición o el Periódico
+        Trabajando en la radio, la televisión o el Periódico
         <br>
         <input type="radio" name="pregunta5" id="pd58" value="nunca" onclick="criminologia += 3.4">
         Descubriendo criminales
       </h5>
       <hr>
 
-      <h3>¿Te gusta trabajar mas con personas o con maquinas?</h3>
+      <h3>¿Te gusta trabajar más con personas o con maquinas?</h3>
       <h5>
         <input type="radio" name="pregunta6" id="pd61" value="personas" onclick="industrial+=1.1;salud+=1.12;artes+=0.44;administracion+=1.22;educacion+=1.199;comunicacion+=2.011;criminologia+=1.034;">
         Personas<br>
