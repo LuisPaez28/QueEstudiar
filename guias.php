@@ -81,7 +81,7 @@ se cobrará una subscripcción y ellos cobraran como gusten-->
               Si necesitas un poco de ayuda en cálculo
             </p>
             <a href="
-              https://wa.me/16271433092?text=Hola,%20necesito%20información%20del%20curso%20de%20cálculo
+              https://wa.me/5216271433092?text=Hola,%20necesito%20información%20del%20curso%20de%20cálculo
               " class="btn btn-primary">Contactar</a>
           </div>
         </div>
@@ -95,7 +95,7 @@ se cobrará una subscripcción y ellos cobraran como gusten-->
               Si necesitas un poco de ayuda en redacción y lectura.
             </p>
             <a href="
-              https://wa.me/16271433092?text=Hola,%20necesito%20información%20del%20curso%20de%20redacción%20y%20lectura
+              https://wa.me/5216271433092?text=Hola,%20necesito%20información%20del%20curso%20de%20redacción%20y%20lectura
               " class="btn btn-primary">Contactar</a>
           </div>
         </div>
@@ -110,7 +110,7 @@ se cobrará una subscripcción y ellos cobraran como gusten-->
             </p>
             <!--Aqui es donde se mensiona que es otro servicio que se va a ofrecer-->
             <a href="
-              https://wa.me/16271433092?text=Hola,%20necesito%20información%20del%20curso%20EXANI%20II
+              https://wa.me/5216271433092?text=Hola,%20necesito%20información%20del%20curso%20EXANI%20II
               " class="btn btn-primary">Contactar</a>
           </div>
         </div>
@@ -126,7 +126,7 @@ se cobrará una subscripcción y ellos cobraran como gusten-->
               Si necesitas un poco de ayuda con el Ingles
             </p>
             <a href="
-              https://wa.me/16271433092?text=Hola,%20necesito%20información%20del%20curso%20de%20ingles
+              https://wa.me/5216271433092?text=Hola,%20necesito%20información%20del%20curso%20de%20ingles
               " class="btn btn-primary">Contactar</a>
           </div>
         </div>
@@ -140,7 +140,7 @@ se cobrará una subscripcción y ellos cobraran como gusten-->
               Si necesitas un poco de ayuda con algebra y geometria
             </p>
             <a href="
-              https://wa.me/16271433092?text=Hola,%20necesito%20información%20del%20curso%20de%20algebra%20y%20geometria
+              https://wa.me/5216271433092?text=Hola,%20necesito%20información%20del%20curso%20de%20algebra%20y%20geometria
               " class="btn btn-primary">Contactar</a>
           </div>
         </div>
@@ -154,7 +154,7 @@ se cobrará una subscripcción y ellos cobraran como gusten-->
               Sabemos que los inicios son dificiles, si necesitas ayuda para adaptarte y entender aqui es el lugar.
             </p>
             <a href="
-              https://wa.me/16271433092?text=Hola,%20necesito%20información%20del%20curso%20introducción%20a%20universidad
+              https://wa.me/5216271433092?text=Hola,%20necesito%20información%20del%20curso%20introducción%20a%20universidad
               " class="btn btn-primary">Contactar</a>
           </div>
         </div>
