@@ -26,10 +26,10 @@
         <div class="col-xs-6 col-md-3 ml-2 mt-1" id="ITIB">
             <div class="img-thumbnail text-center">
                 <img style="width: 50%;" src="Imagenes/InstituoTecnicoEnImagenesBiomedicas.png"
-                    alt="Instituo Tecnico En Imagenes Biomedicas">
+                    alt="Instituo Tecnico En Imágenes Biomedicas">
 
                 <div class="caption">
-                    <h3>Instituo Tecnico En Imagenes Biomedicas</h3>
+                    <h3>Instituo Técnico En Imágenes Biomedicas</h3>
                     <p>Escribir acerca de esta escuela</p>
                     <p>
                         <a href="https://lincesparralitib.wixsite.com/itibparral" class="btn btn-dark" role="button">Ver
