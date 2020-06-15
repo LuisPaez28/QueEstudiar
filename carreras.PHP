@@ -28,7 +28,7 @@
                         <img src="Iconos/0.5x/Recurso 2@0.5x.png" alt="ITParral">
                     </a>
                     <div class="media-body">
-                        <h5 class="mt-0">Instituo Tecnológico de Parral</h5>
+                        <h5 class="mt-0">Instituto Tecnológico de Parral</h5>
                         <!--Hablar sobre el Tec y esta área-->
                         <a href="http://www.itparral.edu.mx" class="btn btn-dark" role="button">Ver Pagina</a>
                     </div>
@@ -304,7 +304,7 @@
                         <img src="Iconos/0.5x/Recurso 2@0.5x.png" alt="ITParral">
                     </a>
                     <div class="media-body">
-                        <h5 class="mt-0">Instituo Tecnológico de Parral</h5>
+                        <h5 class="mt-0">Instituto Tecnológico de Parral</h5>
                         <!--Hablar sobre el Tec y esta área-->
                         <a href="http://www.itparral.edu.mx" class="btn btn-dark" role="button">Ver Pagina</a>
                     </div>
@@ -536,7 +536,7 @@
     <div class="media">
         <img class="mr-3" src="carreras/iconos/aprendisaje.svg" alt="admin" style="width:8%;">
         <div class="media-body">
-            <h5 class="mt-0">Licenciatura en Enseñanza y Aprendisaje</h5>
+            <h5 class="mt-0">Licenciatura en Enseñanza y Aprendizaje</h5>
             <!--Insertar texto de la licenciatura-->
             <a href="#collapseEnseYA" class="btn btn-light" data-toggle="collapse"
              role="button" aria-expanded="false" aria-controls="collapseEnseYA">
@@ -635,7 +635,7 @@
                         <img src="Iconos/0.5x/Recurso 2@0.5x.png" alt="ITParral">
                     </a>
                     <div class="media-body">
-                        <h5 class="mt-0">Instituo Tecnológico de Parral</h5>
+                        <h5 class="mt-0">Instituto Tecnológico de Parral</h5>
                         <!--Hablar sobre el Tec y esta área-->
                         <a href="http://www.itparral.edu.mx" class="btn btn-dark" role="button">Ver Pagina</a>
                     </div>
@@ -689,11 +689,11 @@
         <div class="media-body">
             <h5 class="mt-0">Licenciatura en Ingeniería en Mantenimiento Industrial</h5>
             <!--Insertar texto de la licenciatura-->
-            <a href="#collapsManIndu" class="btn btn-light" data-toggle="collapse"
-             role="button" aria-expanded="false" aria-controls="collapseManIndu">
+            <a href="#collapseM" class="btn btn-light" data-toggle="collapse"
+             role="button" aria-expanded="false" aria-controls="collapseM">
                 Ver Universidades
             </a>
-            <div class="collapse" id="collapseManIndu">
+            <div class="collapse" id="collapseM">
                 <?php include('linkUTP.html') ?>
             </div>
         </div>
@@ -736,7 +736,7 @@
                         <img src="Iconos/0.5x/Recurso 2@0.5x.png" alt="ITParral">
                     </a>
                     <div class="media-body">
-                        <h5 class="mt-0">Instituo Tecnológico de Parral</h5>
+                        <h5 class="mt-0">Instituto Tecnológico de Parral</h5>
                         <!--Hablar sobre el Tec y esta área-->
                         <a href="http://www.itparral.edu.mx" class="btn btn-dark" role="button">Ver Pagina</a>
                     </div>
@@ -827,7 +827,7 @@
                         <img src="Iconos/0.5x/Recurso 2@0.5x.png" alt="ITParral">
                     </a>
                     <div class="media-body">
-                        <h5 class="mt-0">Instituo Tecnológico de Parral</h5>
+                        <h5 class="mt-0">Instituto Tecnológico de Parral</h5>
                         <!--Hablar sobre el Tec y esta área-->
                         <a href="http://www.itparral.edu.mx" class="btn btn-dark" role="button">Ver Pagina</a>
                     </div>
@@ -887,7 +887,7 @@
                     <div class="media-body">
                         <h5 class="mt-0">UPN</h5>
                         <!--Hablar sobre el Tec y esta área-->
-                        <a href="http://www.UPENECH.edu.mx/" class="btn btn-dark" role="button">Ver Pagina</a>
+                        <a href="http://www.UPNECH.edu.mx/" class="btn btn-dark" role="button">Ver Pagina</a>
                     </div>
                 </div>
             </div>
@@ -983,7 +983,7 @@
                     <div class="media-body">
                         <h5 class="mt-0">Universidad España de Durango</h5>
                         <!--Hablar sobre el Tec y esta área-->
-                        <a href="http://www.uach.mx" class="btn btn-dark" role="button">Ver Pagina</a>
+                        <a href="https://www.facebook.com/UniversidadUNESParral/" class="btn btn-dark" role="button">Ver Pagina</a>
                     </div>
                 </div>
             </div>
@@ -1008,7 +1008,7 @@
                     <div class="media-body">
                         <h5 class="mt-0">UPN</h5>
                         <!--Hablar sobre el Tec y esta área-->
-                        <a href="http://www.UPENECH.edu.mx/" class="btn btn-dark" role="button">Ver Pagina</a>
+                        <a href="http://www.UPNECH.edu.mx/" class="btn btn-dark" role="button">Ver Pagina</a>
                     </div>
                 </div>
                 <?php include('linkCCU.html') ?>
@@ -1032,7 +1032,7 @@
                         <img src="Iconos/0.5x/IISCH@0.5x.png" alt="URN">
                     </a>
                     <div class="media-body">
-                        <h5 class="mt-0"></h5>
+                        <h5 class="mt-0">IISCH</h5>
                         <!--Hablar sobre el Tec y esta área-->
                         <a href="http://www.iisch.com" class="btn btn-dark" role="button">Ver Pagina</a>
                     </div>
@@ -1054,7 +1054,7 @@
                 Ver Universidades
             </a>
             <div class="collapse" id="collapseTS">
-                <?php include('link.CCU.html') ?>
+                <?php include('linkCCU.html') ?>
             </div>
         </div>
     </div>
